@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './intro.css';
 import TextTransition,  { presets } from "react-text-transition";
@@ -34,7 +33,9 @@ class Intro extends React.Component {
       
     render(){
         return(
-        <div style={this.state.divStyle} onMouseMove={this._onMouseMove}>
+        // <div style={this.state.divStyle} onMouseMove={this._onMouseMove}>
+        <div className = "main">
+          <div className="root">
             <h1 className="intro-head">Suchi Sinha Mathur</h1>
             <p className="intro">I'm a Computer Engineer from India</p>
             <section className="intro">
@@ -47,6 +48,7 @@ class Intro extends React.Component {
               overflow
             />
           </section>
+          </div>
         </div>);
     };
 }
