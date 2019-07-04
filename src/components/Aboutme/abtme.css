@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.app-bar-at{
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    color: mistyrose;
+}
+.special-txt{
+    font-size: 6vh;
+    color: darkgrey;  
+}
+.abt-head{
+    padding-left: 5%;
+    font-weight: bold;
+    font-size : calc(1.2vw + 1vh);
+    font-family: 'Source Code Pro', monospace; 
+}
+.abt-content{
+    padding: 5%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: calc(1vw + 0.9vh);
+}
+.bg-col-bar{
+    background-color: coral;
+}
+.main-abt{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+.lft-abt{
+    align-content: flex-start;
+    width: 60%;
+}
+.rgt-abt{
+    align-content: flex-end;
+    background-image : url("../../images/abtme.jpeg");
+    width: 40%;
+    position: center;
+    overflow : 'hidden';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

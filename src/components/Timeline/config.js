@@ -4,15 +4,15 @@ const config = {
   mediaWidthMed: 900,
   mediaWidthSmall: 700,
   // activeColor: '#329D9C',
-  activeColor: '#ECEAE0',
+  activeColor: '#34675C',
   // color: "#63AA9C",
-  color: "#E9633B",
+  color: "#F1F1F2",
   twoSidedOverlap: 20, // negative overlap between items if two-sided
   animations: true,
   addEvenPropToChildren: false,
 
   // line
-  lineColor: 'white',
+  lineColor: '#29323c',
   circleWidth: 37,
   paddingToItem: 30,
   paddingToItemSmall: 20,

@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 .time{
     background: linear-gradient(
     to bottom,
-    #222930 ,
-    #221E1D     
+    #274046,
+    #dae2f8, 
+    #ffffff    
   );
   margin-top: 0%;
+}
+.journ-head{
+  color: seagreen;
+  /* font-family: 'Lobster',cursive; */
+  font-family: 'Source Code Pro', monospace;
+
+}
+.time-text{
+  font-style: italic;
+  text-transform: initial;
 }

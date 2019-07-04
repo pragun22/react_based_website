@@ -15,17 +15,6 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 // import {Link} from 'react-router-dom';
 
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Built with love by the '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
-      </Link>
-      {' team.'}
-    </Typography>
-  );
-}
 const useStyles = makeStyles(theme => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -128,7 +117,7 @@ export default function Works() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                      <Link href={card.link}>
+                      <Link href={card.link} color="inheret">
                     <Button size="small" color="primary">
                       Visit
                     </Button>
@@ -143,17 +132,6 @@ export default function Works() {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
-      <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
-        </Typography>
-        <MadeWithLove />
-      </footer>
-      {/* End footer */}
     </React.Fragment>
   );
 }
